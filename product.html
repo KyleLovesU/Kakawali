@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kakawali - Product</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <div class="container">
+        <img src="kawali.jpg" alt="Kakawali Logo" class="logo">  <!-- Ensure kawali.jpg exists in your folder -->
+        <div class="top-bar">
+            <h1>Product Details</h1>
+            <div class="buttons">
+                <button class="back-btn" onclick="window.location.href='menu.html'">Back to Menu</button>
+                <div class="cart" onclick="window.location.href='cart.html'">Cart (<span id="cartCount">0</span>)</div>
+            </div>
+        </div>
+        <div id="productDetails"></div>
+    </div>
+
+    <script src="product.js"></script>
+</body>
+</html> 

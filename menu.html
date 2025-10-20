@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kakawali - Menu</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <div class="container">
+        <img src="kawali.jpg" alt="Kakawali Logo" class="logo">  <!-- Ensure kawali.jpg exists in your folder -->
+        <div id="notificationBar"></div>  <!-- Notification bar for user's name -->
+        <div class="top-bar">
+            <h1>Kakawali Menu</h1>
+            <div class="cart" onclick="window.location.href='cart.html'">Cart (<span id="cartCount">0</span>)</div>
+        </div>
+        <input type="text" id="search" placeholder="Search menu...">
+        <div id="menuSections"></div>
+    </div>
+
+    <script src="menu.js"></script>
+</body>
+</html>
